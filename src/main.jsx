@@ -1,6 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Timetable from './24_12/timetable'
+// import Timetable from './24_12/timetable'
+// import Statement1 from './30_12/statement1'
+import StateMerge from './30_12/stateMerge'
 // import './index.css'
 // import App from './App.jsx'
 
@@ -33,6 +35,9 @@ createRoot(document.getElementById('root')).render(
       </tbody>
     </table>
     </center> */}
-    <Timetable/>
+    {/* <Timetable/> */}
+    {/* <Statement1/> */}
+        <StateMerge/>
+
   </StrictMode>,
 )
