@@ -1,11 +1,12 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import Timetable from './24_12/timetable'
 // import './index.css'
 // import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <h1>
+    {/* <h1>
     Hello World!!</h1>
     <h3>
     <p>
@@ -31,6 +32,7 @@ createRoot(document.getElementById('root')).render(
         </tr>
       </tbody>
     </table>
-    </center>
+    </center> */}
+    <Timetable/>
   </StrictMode>,
 )
