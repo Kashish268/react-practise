@@ -6,8 +6,7 @@ class StateMerge extends React.Component {
         second:"loading...",
         third:"loading.......",
         four:"loading.......",
-        cmpMess:"loading done",
-       
+        cmpMess:"loading done",    
     };
 
     //change the valur of variable 

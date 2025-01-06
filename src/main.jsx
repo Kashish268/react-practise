@@ -1,8 +1,15 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+// import Setexam2 from './06_01/hookexamp2'
+import SetExam3 from './06_01/hookexam3'
+// import FunComp1 from './31_12/hookcomp1'
+// import StateExam from './06_01/hookexap'
 // import Timetable from './24_12/timetable'
 // import Statement1 from './30_12/statement1'
-import StateMerge from './30_12/stateMerge'
+// import StateMerge from './30_12/stateMerge'
+// import Purefunc from './31_12/purefunc'
+// import Mycomponent from './31_12/combined'
+// import MyButton3 from './31_12/purefunc2'
 // import './index.css'
 // import App from './App.jsx'
 
@@ -37,7 +44,23 @@ createRoot(document.getElementById('root')).render(
     </center> */}
     {/* <Timetable/> */}
     {/* <Statement1/> */}
-        <StateMerge/>
+        {/* <StateMerge/> */}
+        {/* <Mycomponent/> */}
+        {/* <Purefunc abc={false} xyz={"React"}/>
+        <Purefunc abc={true} xyz={"Java"}/> */}
+{/* <MyButton3/>
+<MyButton3 abc={true} def={"asp.net"}/>
+<MyButton3 def={"al/ml"}/> */}
 
+
+{/* ==================== */}
+
+{/* <FunComp1/> */}
+
+{/* <StateExam/> */}
+
+{/* <Setexam2/> */}
+
+<SetExam3/>
   </StrictMode>,
 )
