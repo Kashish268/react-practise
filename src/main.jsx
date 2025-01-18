@@ -1,7 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+// import Countdown from './18_01/coundown'
+
+import ArrTolist from './18_01/arrayTolist'
+// import ApiSimulation from './18_01/hookeffect'
 // import Setexam2 from './06_01/hookexamp2'
-import SetExam3 from './06_01/hookexam3'
+// import SetExam3 from './06_01/hookexam3'
 // import FunComp1 from './31_12/hookcomp1'
 // import StateExam from './06_01/hookexap'
 // import Timetable from './24_12/timetable'
@@ -61,6 +65,12 @@ createRoot(document.getElementById('root')).render(
 
 {/* <Setexam2/> */}
 
-<SetExam3/>
+{/* <SetExam3/> */}
+
+{/* <ApiSimulation/> */}
+
+{/* <Countdown/> */}
+
+<ArrTolist/>
   </StrictMode>,
 )
