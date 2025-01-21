@@ -2,7 +2,8 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 // import Countdown from './18_01/coundown'
 
-import ArrTolist from './18_01/arrayTolist'
+// import ArrTolist from './18_01/arrayTolist'
+import ImageChanger from './18_01/imagechanger'
 // import ApiSimulation from './18_01/hookeffect'
 // import Setexam2 from './06_01/hookexamp2'
 // import SetExam3 from './06_01/hookexam3'
@@ -71,6 +72,8 @@ createRoot(document.getElementById('root')).render(
 
 {/* <Countdown/> */}
 
-<ArrTolist/>
+{/* <ArrTolist/> */}
+
+<ImageChanger/>
   </StrictMode>,
 )

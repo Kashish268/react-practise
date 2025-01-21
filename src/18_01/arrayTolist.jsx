@@ -13,9 +13,4 @@ function ArrTolist() {
         </ul>
     );
 }
-
-
-   
-
-
 export default ArrTolist;
