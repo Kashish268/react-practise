@@ -1,9 +1,13 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import DisplayResult from './04_02/UseContext Task/file3'
+// import Conditional from './21_01/customcomp'
+// import { UserContext, UserProvider } from './03_02_global statemanagement/file1'
+// import UseContextExample from './03_02_global statemanagement/file3'
 // import Countdown from './18_01/coundown'
 
 // import ArrTolist from './18_01/arrayTolist'
-import ImageChanger from './18_01/imagechanger'
+// import ImageChanger from './18_01/imagechanger'
 // import ApiSimulation from './18_01/hookeffect'
 // import Setexam2 from './06_01/hookexamp2'
 // import SetExam3 from './06_01/hookexam3'
@@ -74,6 +78,16 @@ createRoot(document.getElementById('root')).render(
 
 {/* <ArrTolist/> */}
 
-<ImageChanger/>
+{/* <ImageChanger/> */}
+
+{/* ================================================= */}
+{/* <Conditional/> */}
+
+
+{/* /* ================================================= */ }
+
+{/* <UseContextExample/> */}
+
+<DisplayResult/>
   </StrictMode>,
 )
